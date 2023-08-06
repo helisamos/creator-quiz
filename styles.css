@@ -257,3 +257,9 @@ footer {
     /* ... Any other mobile-specific styles ... */
 
 }
+
+img, container, body, html {
+    max-width: 100%;
+    overflow-x: hidden; /* Prevents horizontal scrolling if there's an overflow */
+}
+
